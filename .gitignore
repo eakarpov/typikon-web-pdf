@@ -1,0 +1,6 @@
+.env.production
+.env.development
+.env.release
+dist/
+node_modules/
+.idea/

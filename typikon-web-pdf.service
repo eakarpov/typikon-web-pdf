@@ -1,0 +1,11 @@
+[Unit]
+Description=Typikon Web Pdf
+
+[Service]
+ExecStart=npm start
+Restart=on-failure
+User=admin
+WorkingDirectory=/home/admin/typikon-web-pdf
+
+[Install]
+WantedBy=multi-user.target
